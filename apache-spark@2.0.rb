@@ -4,12 +4,9 @@ class ApacheSparkAT20 < Formula
   url "https://www.apache.org/dist/spark/spark-2.0.2/spark-2.0.2-bin-hadoop2.7.tgz"
   version "2.0.2"
   sha256 "e6349dd38ded84831e3ff7d391ae7f2525c359fb452b0fc32ee2ab637673552a"
-  revision 1
 
   bottle :unneeded
-
-  keg_only :versioned_formula
-
+  
   def install
     # Rename beeline to distinguish it from hive's beeline
     mv "bin/beeline", "bin/spark-beeline"
