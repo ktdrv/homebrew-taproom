@@ -3,7 +3,7 @@ class ApacheSparkAT20 < Formula
   homepage "https://spark.apache.org/"
   url "https://www.apache.org/dist/spark/spark-2.0.2/spark-2.0.2-bin-hadoop2.7.tgz"
   version "2.0.2"
-  sha256 "9a1d19ab295d1252ecb0a4adcaaf5f215a75dc7427597af9a9475f0c0fe0a59713ff601e5c13ece25eccd67913167fab85a04d1c104a51c027d4f39e2c414034"
+  sha256 "e6349dd38ded84831e3ff7d391ae7f2525c359fb452b0fc32ee2ab637673552a"
   revision 1
 
   bottle :unneeded
